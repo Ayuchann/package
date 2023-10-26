@@ -4,7 +4,7 @@ const {
 } = require(__path + '/lib/color.js');
 
 // Connection URL
-const url = 'mongodb://mongo:l7PmQpHaLvSc0P7Mb1b1@containers-us-west-76.railway.app:6782';
+const url = 'mongodb+srv://Miacantik:75KBVKqPHue3r1jE@cluster0.njkjca8.mongodb.net/?retryWrites=true&w=majority';
 
 try {
 	if (url == 'url mongodb') throw console.log(color('Cek konfigurasi database, var url belum diisi', 'red'));
