@@ -9,7 +9,7 @@ router.use(bodyParser.urlencoded({
 }));
 router.use(bodyParser.json());
 
-const websiteUrl = 'https://api.eriri.my.id:8080/user';
+const websiteUrl = 'https://api.eriri.my.id/user';
 async function sendVerificationEmail(email, userId) {
     const transporter = nodemailer.createTransport({
         service: 'Gmail',
