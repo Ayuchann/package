@@ -9,7 +9,7 @@ router.use(bodyParser.urlencoded({
 }));
 router.use(bodyParser.json());
 
-const websiteUrl = 'https://api.eriri.my.id/user';
+const websiteUrl = 'https://ap.roxepika.my.id/user';
 async function sendVerificationEmail(email, userId) {
     const transporter = nodemailer.createTransport({
         service: 'Gmail',
