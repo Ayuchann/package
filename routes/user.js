@@ -9,7 +9,7 @@ router.use(bodyParser.urlencoded({
 }));
 router.use(bodyParser.json());
 
-const websiteUrl = 'http://localhost:8080/user';
+const websiteUrl = 'http://replit.co/user';
 async function sendVerificationEmail(email, userId) {
     const transporter = nodemailer.createTransport({
         service: 'Gmail',
